@@ -1,4 +1,32 @@
+# Simple Full-Stack To-Do App (React + Spring Boot)
 
+This is a basic full-stack To-Do List application built with React for the frontend and Spring Boot (Java) for the backend. It demonstrates CRUD (Create, Read, Update, Delete) operations for managing to-do items.
+
+## Features
+
+*   View a list of to-do items.
+*   Add new to-do items.
+*   Mark to-do items as completed or incomplete.
+*   Delete to-do items.
+*   Data is persisted in an H2 in-memory database (restarts with the backend).
+
+## Tech Stack
+
+**Frontend:**
+*   React (JavaScript)
+*   Axios (for HTTP requests)
+*   HTML5 & CSS3
+*   Node.js & npm (for development environment)
+
+**Backend:**
+*   Spring Boot (Java)
+*   Spring Web (for REST APIs)
+*   Spring Data JPA (for database interaction)
+*   H2 Database (in-memory SQL database)
+*   Maven (for project build and dependency management)
+*   Lombok (to reduce boilerplate code)
+
+## Project Structure
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
